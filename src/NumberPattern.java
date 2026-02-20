@@ -3,9 +3,9 @@ import java.util.Scanner;
 public class NumberPattern {
 
     public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
         System.out.print("Enter number: ");
-        int n = input.nextInt();
+        int n = sc.nextInt();
 
         int totalCells = n * n;
 
